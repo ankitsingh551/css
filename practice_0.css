@@ -1,0 +1,54 @@
+.mainbox{
+    height: 300px;
+    width: 600px;
+    border: 2px solid black;
+    background-color: azure;
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    flex-direction:column;
+    justify-content:center;
+    /*align-items: flex-end;*/
+    align-content:flex-start;
+    }
+#one{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color:black;
+    text-align: center;
+    color: white;
+   /* justify-content: baseline;*/
+}
+#two{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color:red;
+    text-align: center;
+    color: white;
+}
+#three{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color:green;
+    text-align: center;
+    color: white;
+}
+#four{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color:orange;
+    text-align: center;
+    color: white;
+}
+#five{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color:violet;
+    text-align: center;
+    color: white;
+}

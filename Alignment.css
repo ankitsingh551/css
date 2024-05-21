@@ -1,0 +1,24 @@
+h1{
+ text-align: right/end;
+ color: black;
+ text-decoration: black underline;
+ text-decoration: wavy underline;
+ letter-spacing: 5px;
+ font-size: 50px;
+ font-family: arial;
+}
+h3{
+    text-align: right;
+    color: blue;
+    text-decoration: line-through;
+}
+h2{
+    color: red;
+    text-decoration: red double overline;
+}
+p{
+text-align: justify;
+font-weight: 300;
+line-height: 2.5;
+font-size: 15px;
+}

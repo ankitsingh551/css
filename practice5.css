@@ -1,0 +1,44 @@
+
+div{
+    margin-top: 10px;
+}
+#box1{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    transition: 3s ease-in 1s;
+
+}
+#box1:hover{
+    width: 600px;
+}
+#box2{
+    height:200px;
+    width: 200px;
+    background-color: chartreuse;
+    transform:translate(200px,200px)rotate(90deg);
+
+}
+#box3{
+    height: 200px;
+    width: 200px;
+    background-color: cornflowerblue;
+    transform: skew(20deg);
+
+}
+#box4{
+    height: 200px;
+    width: 200px;
+    background-color: burlywood;
+    box-shadow: 2px 2px 5px green;
+
+}
+#mypic{
+    height: 200px;
+    width: 200px;
+    background-color: azure;
+    background-image: url("bgimg.avif");
+    background-size: cover;
+    opacity: 50%;
+
+}

@@ -1,0 +1,30 @@
+.card{
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    margin:10px;
+
+}
+img{
+    width: 100%;
+    border-radius: 25px;
+}
+#pets{
+    display: flex;
+    justify-content: space-evenly;
+}
+h2{
+   color: blanchedalmond;
+}
+span{
+    color: cornflowerblue;
+}
+h3{
+    color: orange;
+}
+@media (max-width:400px){
+    #pets{
+        flex-wrap: wrap;
+    }
+}

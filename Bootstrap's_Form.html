@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+ <link rel="stylesheet" href="Bootstrap's_Form.css"/>
+ <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+<body>
+   <div class="container">
+    <h2>Form Demo</h2>
+    <form>
+        <div class="row">
+        <div class="mb-3 col-md-6">
+        <label class="form-label" for="Email">Email</label>
+        <input type="text" class="form-control" id="Email" placeholder="Email">
+      </div>
+        <div class="mb-3 col-md-6">
+        <label class="form-label" for="password">password</label>
+        <input type="password" class="form-control" id="password" placeholder="password">
+       </div>
+       </div>
+         <div class="mb-3">
+        <label class="form-label" for="Address">Address</label>
+        <input type="text" class="form-control-sm" id="Address" placeholder="Address">
+       </div>
+       <div class="mb-3">
+        <select class="form-select">
+            <option selected>choose your city</option>
+            <option value="1">patna</option>
+            <option value="2">delhi</option>
+            <option value="3">bhopal</option>
+        </select>
+       </div>
+       <div class="mb-3 form-check">
+        <label for="agreebs" class="form-check-label">Agree</label>
+        <input type="checkbox" id="agreebs" class="form-check-input">
+       </div>
+       <div class="mb-3 form-check">
+        <label for="radiobs" class="form-check-label">Yes/No</label>
+        <input type="radio" id="radiobs" class="form-check-input">
+       </div>
+       <div class="form-check form-switch mb-3">
+        <input class="form-check-input" type="checkbox" role="switch" id="switchbs">
+        <label class="form-check-label" for="switchbs">Default switch checkbox input</label>
+      </div>
+    </form>
+
+   </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>

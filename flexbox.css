@@ -1,0 +1,122 @@
+ #container{
+    height: 400px;
+    width: 60%;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    margin: 10px auto;
+    display: flex;
+ /* flex-direction:row;*/
+ /*flex-direction:column;*/
+ /*flex-direction:row-reverse;*/
+  /* flex-direction:column-reverse;*/
+
+  /*---->>>------>>>>>>----->>>>>>*/
+
+    /*justify-content: flex-start;*/
+   /* justify-content: flex-end;*/
+   /* justify-content: center;*/
+   /*justify-content: space-between;*/
+  /* justify-content: space-around;*/
+   /*justify-content: space-evenly;*/
+
+   /*-->>>>----------->>>>>-------->>>>*/
+   
+   /*flex-wrap: nowrap;*/
+  flex-wrap: wrap;
+  /*flex-wrap: wrap-reverse;*/
+
+  /*---->>>>>----->>>>>----->>>>>----->>>>>*/
+
+
+   /*align-items:flex-start;*/
+   align-items: flex-end;
+   /*align-items:center;*/
+
+   /*justify-content: baseline;*/
+
+    /*--->>>>----->>>>---->>>>>------->>>>>>>>*/
+   align-content: flex-start;
+   /*align-content: flex-end;*/
+   /*align-content: center;*/
+
+   /*----->>>>>----->>>>>----->>>>>----->>>>>>>*/
+
+    /* align-content: space-between;*/
+    /* align-content: space-around;*/
+   /* align-content: space-evenly;*/
+  /* align-content: baseline;*/
+
+
+ }
+ h1{
+    text-align: center;
+ }
+ #violet{
+    height: 50px;
+    width: 300px;
+    background-color: violet;
+    color: white;
+    text-align: center;
+    font: 1.5semi;
+
+}
+#indigo{
+    height: 50px;
+    width: 300px;
+    background-color: indigo;
+    color: white;
+    text-align: center;
+    font: 1.5semi;
+
+}
+#blue{
+    height: 30px;
+    width: 300px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font: 1.5semi;
+    flex-grow: 2;
+
+}
+#green{
+    height: 50px;
+    width: 300px;
+     background-color: green;
+     color: white;
+     text-align: center;
+    font: 1.5semi;
+    max-width: 600px;
+    min-width: 600px;
+
+
+}
+#yellow{
+    height: 50px;
+    width: 300px;
+    background-color: yellow;
+    color: white;
+    text-align: center;
+    font: 1.5semi;
+
+}
+#orange{
+    height: 50px;
+    width: 300px;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    font: 1.5semi;
+    align-self: flex-start;
+    flex-basis: 10px;
+
+}
+#red{
+    height: 50px;
+    width: 300px;
+     background-color: red;
+     color: white;
+     text-align: center;
+    font: 1.5semi;
+
+}

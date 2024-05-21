@@ -1,0 +1,17 @@
+
+h1{
+    color:red;
+    background-color: blue;
+}
+h2{
+    color:blue;
+    background-color: aquamarine;
+}
+p{
+    color:black;
+    background-color: chartreuse;
+}
+button{
+    color: darkgreen;
+    background-color: burlywood;
+}

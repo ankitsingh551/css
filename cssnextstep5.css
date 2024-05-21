@@ -1,0 +1,9 @@
+div{
+    width: 400px;
+    height: 200px;
+    color: red;
+    background-color: aqua;
+    margin: 10px auto;
+    background-image: url("bgimg.avif");
+    background-size: cover;
+}
